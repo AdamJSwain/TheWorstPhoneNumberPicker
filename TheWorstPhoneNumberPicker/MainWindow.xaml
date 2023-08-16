@@ -11,7 +11,7 @@
         <Label x:Name="lblInstruction" Content="Please enter your phone number" HorizontalAlignment="Left" Margin="80,144,0,0" VerticalAlignment="Top"/>
         <Label x:Name="lblNumber" Content="Label" HorizontalAlignment="Left" Margin="400,144,0,0" VerticalAlignment="Top" Width="199" />
         <Button x:Name="btnSave" Content="Save Number" HorizontalAlignment="Center" Margin="0,318,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.403,-0.22" Click="btnSave_Click"/>
-        <CheckBox x:Name="chkBoxAdvanced" Content="Advanced Mode" HorizontalAlignment="Center" Margin="0,263,0,0" VerticalAlignment="Top" Checked="chkBoxAdvanced_Checked"/>
+        <CheckBox x:Name="chkBoxAdvanced" Content="Advanced Mode" HorizontalAlignment="Center" Margin="0,263,0,0" VerticalAlignment="Top" Checked="chkBoxAdvanced_Checked" Unchecked="chkBoxAdvanced_Checked"/>
         <Button x:Name="btnPlus" Content="Plus" HorizontalAlignment="Left" Margin="522,246,0,0" VerticalAlignment="Top" Click="btnPlus_Click"/>
         <Button x:Name="btnMinus" Content="Minus" HorizontalAlignment="Left" Margin="582,246,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.444,-0.169" Click="btnMinus_Click"/>
 

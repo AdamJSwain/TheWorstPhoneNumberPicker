@@ -25,6 +25,8 @@ namespace TheWorstPhoneNumberPicker
         public MainWindow()
         {
             InitializeComponent();
+            sldNumber.Value = 0;
+            lblNumber.Content = 0;
             
         }
         
